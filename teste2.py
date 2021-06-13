@@ -47,5 +47,6 @@ TISS.to_csv("Teste_Intuitive_Care_Julia_Harnisch/TISS.csv")
 solicitacao.to_csv("Teste_Intuitive_Care_Julia_Harnisch/solicitacao.csv")
 
 # Exportação para .zip
+# IMPORTANTE: mudar diretório fonte para a localização da pasta "Teste_Intuitive_care_Julia_Harnisch" no seu computador
 shutil.make_archive('Teste_Intuitive_Care_Julia_Harnisch', 'zip',
-                    "D:/Users/julia/OneDrive/Área de Trabalho/Área de trabalho/IntuitiveCare/Teste_Intuitive_Care_Julia_Harnisch")
+                    "C:/Users/julia/OneDrive/Área de trabalho/Estagio/IntuitiveCare/Teste_Intuitive_Care_Julia_Harnisch")  # Diretório fonte
